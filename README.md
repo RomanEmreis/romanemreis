@@ -4,7 +4,7 @@ Hi 👋 My name is Roman Emreis
 Software Architect | Software Engineer | Technology Enthusiast | Creator
 ---------------------------------
 
-I've been coding since 2003 using different languages and technologies but my favorite ones are: C#, C++, TypeScript and Go
+I've been coding since 2003 using different languages and technologies but my favorite ones are: C#, C++, Rust, TypeScript and Go
 
 * 🌍  I'm based in Tbilisi, Georgia
 * ✉️  You can contact me at [www.linkedin.com/in/romanemreis](http://www.linkedin.com/in/romanemreis)
