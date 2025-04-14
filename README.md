@@ -7,6 +7,7 @@ Software Architect | Software Engineer | Technology Enthusiast | Creator
 Coding since 2003, leveraging a wide range of languages and technologies, with a strong passion for C#, Rust, and C++.
 
 - 💻 Owner of [**Volga**](https://github.com/RomanEmreis/volga) web-framework for Rust. Check it out for easy microservices development in Rust with fun!
+- 💡 Owner of [**Neva**](https://github.com/RomanEmreis/neva) MCP Server and Client SDK for Rust.
 - ✉️ You can contact me in [Linkedin](www.linkedin.com/in/romanemreis)
 - 🤝 I'm open to collaborating on cutting-edge projects and technologies
 
