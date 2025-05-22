@@ -1,7 +1,7 @@
 Hi 👋 My name is Roman Emreis
 =============================
 
-Software Architect | Software Engineer | Technology Enthusiast | Creator
+CTO | Technology Enthusiast | Software Engineer | Creator
 ---------------------------------
 
 Coding since 2003, leveraging a wide range of languages and technologies, with a strong passion for C#, Rust, and C++.
