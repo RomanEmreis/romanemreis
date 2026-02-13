@@ -1,16 +1,24 @@
 # Roman Emreis
 
-Building developer platforms and infrastructure that explore how powerful systems can remain explicit, composable, and predictable while lowering cognitive overhead.
+Exploring developer platforms and infrastructure where powerful systems remain explicit, composable, and predictable without increasing cognitive overhead.
 
 ## Mission
 
-Modern engineering ecosystems often create unnecessary complexity barriers.
+Modern engineering ecosystems increasingly introduce complexity through implicit abstractions and convenience-driven design.
 
-My work focuses on reducing that friction:
+High-performance infrastructure, distributed systems, and emerging AI platforms often force engineers to choose between:
 
-- Making powerful systems approachable
-- Preserving explicit architecture
-- Enabling real-world production use without hidden magic
+- Simplicity and control
+- Ergonomics and predictability
+- Accessibility and performance
+
+My work explores approaches that avoid this tradeoff.
+
+The goal is to build systems that:
+
+- Reduce cognitive overhead without hiding behaviour
+- Remain explicit and composable
+- Scale from learning environments to production-grade infrastructure
 
 ## Systems
 
@@ -21,7 +29,7 @@ Bringing simplicity to Rust without sacrificing performance or architectural con
 Why it exists:
 
 Rust web development often forces tradeoffs between ergonomics and power.  
-Volga explores an alternative approach where explicit APIs preserve reasoning clarity without increasing complexity.
+Volga explores how explicit architecture can reduce cognitive load without hiding system behaviour.
 
 ### [Neva: MCP SDK for AI agents and integrations](https://github.com/RomanEmreis/neva)
 
@@ -37,12 +45,17 @@ Neva focuses on:
 
 ## Areas of Interest
 
+Systems:
 - Distributed system architecture
-- Developer platforms & DX engineering
-- Identity-driven system design
 - Async runtimes and network systems
+
+Platforms:
+- Developer platforms & DX engineering
 - Cloud-native infrastructure
+
+AI:
 - AI infrastructure & agent frameworks
+- Identity-driven system design
 
 ## Engineering Philosophy
 
@@ -54,12 +67,14 @@ Neva focuses on:
 
 ## Thinking
 
-Ongoing exploration of:
+Current explorations include:
 
 - Middleware pipeline models
 - HTTP abstraction design
 - Agent runtime ergonomics
 - Balancing DX and performance
+
+These explorations evolve continuously through engineering-notes.
 
 ## Contact
 
