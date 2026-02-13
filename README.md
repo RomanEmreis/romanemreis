@@ -1,8 +1,6 @@
 # Roman Emreis
 
-Building developer platforms, distributed systems, and high-performance infrastructure that reduce complexity without sacrificing power.
-
-I design systems that reduce complexity, lower adoption barriers, and enable engineers to build faster without sacrificing control or performance.
+Building developer platforms and infrastructure that explore how powerful systems can remain explicit, composable, and predictable while lowering cognitive overhead.
 
 ## Mission
 
@@ -23,7 +21,7 @@ Bringing simplicity to Rust without sacrificing performance or architectural con
 Why it exists:
 
 Rust web development often forces tradeoffs between ergonomics and power.  
-Volga explores a different direction: explicit APIs, predictable behaviour, and composable abstractions.
+Volga explores an alternative approach where explicit APIs preserve reasoning clarity without increasing complexity.
 
 ### [Neva: MCP SDK for AI agents and integrations](https://github.com/RomanEmreis/neva)
 
