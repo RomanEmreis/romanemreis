@@ -22,14 +22,14 @@ The goal is to design systems that:
 
 ## Systems
 
-### [Volga — composable Rust Web Framework](https://github.com/RomanEmreis/volga)
+### [Volga: composable Rust Web Framework](https://github.com/RomanEmreis/volga)
 
 An exploration of explicit HTTP abstractions and composable middleware with predictable performance characteristics.
 
 Rust web development often forces tradeoffs between ergonomics and power.  
 Volga investigates an alternative model where explicit APIs preserve reasoning clarity while lowering adoption barriers.
 
-### [Neva — MCP SDK for AI agents and integrations](https://github.com/RomanEmreis/neva)
+### [Neva: MCP SDK for AI agents and integrations](https://github.com/RomanEmreis/neva)
 
 Model Context Protocol SDK focused on making AI agent systems production-ready.
 
