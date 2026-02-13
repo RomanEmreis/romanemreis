@@ -2,6 +2,8 @@
 
 Exploring developer platforms and infrastructure where powerful systems remain explicit, composable, and predictable without increasing cognitive overhead.
 
+Part of an ongoing exploration into explicit system design across web infrastructure and AI platforms.
+
 ## Problem Space
 
 Modern engineering ecosystems increasingly introduce complexity through implicit abstractions and convenience-driven design.
@@ -58,14 +60,14 @@ Neva explores structured agent architectures with strong typing, explicit runtim
 - Systems thinking over tool-driven development
 - Solving real constraints over building abstractions for their own sake
 
-## Thinking
+## Thinking Direction
 
 Current explorations include:
 
-- Middleware pipeline models
-- HTTP abstraction design
-- Agent runtime ergonomics
-- Balancing developer experience and performance
+- How explicit system design can reduce cognitive overhead without limiting flexibility
+- Designing middleware and runtime abstractions that remain predictable under scale
+- Bridging high-performance infrastructure principles into AI agent ecosystems
+- Balancing developer ergonomics with runtime transparency
 
 These explorations evolve continuously through [engineering-notes](https://www.github.com/RomanEmreis/engineering-notes).
 
