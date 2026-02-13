@@ -2,21 +2,21 @@
 
 Exploring developer platforms and infrastructure where powerful systems remain explicit, composable, and predictable without increasing cognitive overhead.
 
-Part of an ongoing exploration into explicit system design across web infrastructure and AI platforms.
+Ongoing exploration into explicit system design across web infrastructure and AI ecosystems.
 
 ## Problem Space
 
 Modern engineering ecosystems increasingly introduce complexity through implicit abstractions and convenience-driven design.
 
-High-performance infrastructure, distributed systems, and emerging AI platforms frequently force tradeoffs between:
+Recurring tensions in modern systems:
 
 - Simplicity and control
 - Ergonomics and predictability
 - Accessibility and performance
 
-This work explores approaches that avoid these tradeoffs.
+Exploring approaches that avoid these tradeoffs.
 
-The goal is to design systems that:
+Systems designed to
 
 - Reduce cognitive overhead without hiding behaviour
 - Remain explicit and composable
@@ -31,38 +31,42 @@ An exploration of explicit HTTP abstractions and composable middleware with pred
 Rust web development often forces tradeoffs between ergonomics and power.  
 Volga investigates an alternative model where explicit APIs preserve reasoning clarity while lowering adoption barriers.
 
+Part of a broader exploration into explicit infrastructure design.
+
 ### [Neva: MCP SDK for AI agents and integrations](https://github.com/RomanEmreis/neva)
 
-Model Context Protocol SDK focused on making AI agent systems production-ready.
+Model Context Protocol SDK exploring production-grade AI agent infrastructure.
 
 Modern AI tooling frequently optimises for experimentation rather than system design.  
 Neva explores structured agent architectures with strong typing, explicit runtime behaviour and extremely low overhead.
 
+Extends exploration into explicit system design into AI infrastructure.
+
 ## Areas of Exploration
 
-### Systems
+### Systems Architecture
 - Distributed system architecture
 - Async runtimes and network systems
 
-### Platforms
+### Platforms & DX
 - Developer platforms & DX engineering
 - Cloud-native infrastructure
 
-### AI
+### AI Infrastructure
 - AI infrastructure & agent frameworks
 - Identity-driven system design
 
 ## Engineering Principles
 
 - Explicit architecture > implicit magic
-- Composability over monolithic frameworks
-- Performance as an architectural property
+- Composability > framework abstraction
+- Performance as architecture
 - Systems thinking over tool-driven development
 - Solving real constraints over building abstractions for their own sake
 
 ## Thinking Direction
 
-Current explorations include:
+Active explorations:
 
 - How explicit system design can reduce cognitive overhead without limiting flexibility
 - Designing middleware and runtime abstractions that remain predictable under scale
