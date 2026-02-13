@@ -12,13 +12,7 @@ High-performance infrastructure, distributed systems, and emerging AI platforms 
 - Ergonomics and predictability
 - Accessibility and performance
 
-My work explores approaches that avoid this tradeoff.
-
-The goal is to build systems that:
-
-- Reduce cognitive overhead without hiding behaviour
-- Remain explicit and composable
-- Scale from learning environments to production-grade infrastructure
+These systems explore approaches that avoid this tradeoff.
 
 ## Systems
 
