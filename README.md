@@ -23,6 +23,16 @@ Systems designed to
 - Scale from learning environments to production-grade infrastructure
 
 ## Systems
+Exploring explicit system design across different layers:
+
+### [Ferrus: deterministic orchestration for AI agents](https://github.com/RomanEmreis/ferrus)
+
+An exploration of agent workflows as deterministic systems rather than conversations.
+
+Most AI agent frameworks optimise for autonomy and interaction.
+Ferrus explores an alternative model where agents operate as stateless workers within a structured lifecycle - with explicit state, enforced transitions, and restartable execution.
+
+Extends explicit system design into agent orchestration and workflow control
 
 ### [Volga: composable Rust Web Framework](https://github.com/RomanEmreis/volga)
 
