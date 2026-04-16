@@ -23,7 +23,7 @@ Systems designed to
 - Scale from learning environments to production-grade infrastructure
 
 ## Systems
-Exploring explicit system design across different layers:
+Exploring explicit system design from high-level orchestration down to protocol-level infrastructure:
 
 ### [Ferrus: deterministic orchestration for AI agents](https://github.com/RomanEmreis/ferrus)
 
@@ -51,6 +51,15 @@ Modern AI tooling frequently optimises for experimentation rather than system de
 Neva explores structured agent architectures with strong typing, explicit runtime behaviour and extremely low overhead.
 
 Extends exploration into explicit system design into AI infrastructure.
+
+### [Istok: deterministic HTTP/3 engine](https://github.com/RomanEmreis/istok)
+
+An exploration of HTTP/3 as an explicit, deterministic system rather than an opaque runtime.
+
+Most networking stacks rely on implicit state and non-deterministic behaviour, making them difficult to reason about and test.  
+Istok investigates an alternative approach based on a test-first state machine, explicit protocol handling, and deterministic transport simulation.
+
+Serves as a foundation layer for exploring explicit system design across the stack.
 
 ## Areas of Exploration
 
