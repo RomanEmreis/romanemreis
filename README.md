@@ -1,79 +1,46 @@
 # Roman Emreis
 
-Exploring developer platforms and infrastructure where powerful systems remain explicit, composable, and predictable without increasing cognitive overhead.
-
-Ongoing exploration into explicit system design across web infrastructure and AI ecosystems.
-
-## Problem Space
-
-Modern engineering ecosystems increasingly introduce complexity through implicit abstractions and convenience-driven design.
-
-Recurring tensions in modern systems:
-
-- Simplicity and control
-- Ergonomics and predictability
-- Accessibility and performance
-
-Exploring approaches that avoid these tradeoffs.
-
-Systems designed to
-
-- Reduce cognitive overhead without hiding behaviour
-- Remain explicit and composable
-- Scale from learning environments to production-grade infrastructure
+I design and build developer platforms and infrastructure where systems remain explicit, composable, and predictable - without increasing cognitive overhead.
 
 ## Systems
-Exploring explicit system design from high-level orchestration down to protocol-level infrastructure:
 
 ### [Ferrus: deterministic orchestration for AI agents](https://github.com/RomanEmreis/ferrus)
 
-An exploration of agent workflows as deterministic systems rather than conversations.
+A deterministic multi-agent orchestration system for real software execution.
 
-Most AI agent frameworks optimise for autonomy and interaction.
-Ferrus explores an alternative model where agents operate as stateless workers within a structured lifecycle - with explicit state, enforced transitions, and restartable execution.
+Instead of treating agents as autonomous chat participants, Ferrus models them as workers in a controlled lifecycle - with explicit state, enforced transitions, and restartable execution.
 
-Extends explicit system design into agent orchestration and workflow control
+Focus: predictable, debuggable, production-aligned agent systems.
 
 ### [Volga: composable Rust Web Framework](https://github.com/RomanEmreis/volga)
 
-An exploration of explicit HTTP abstractions and composable middleware with predictable performance characteristics.
+A Rust web framework built around explicit HTTP abstractions and composable middleware.
 
-Rust web development often forces tradeoffs between ergonomics and power.  
-Volga investigates an alternative model where explicit APIs preserve reasoning clarity while lowering adoption barriers.
+Volga avoids implicit behavior and hidden execution paths, enabling systems that remain understandable under load and at scale.
 
-Part of a broader exploration into explicit infrastructure design.
+Focus: clarity of reasoning without sacrificing performance.
 
 ### [Neva: MCP SDK for AI agents and integrations](https://github.com/RomanEmreis/neva)
 
-Model Context Protocol SDK exploring production-grade AI agent infrastructure.
+A production-oriented Model Context Protocol SDK for building structured AI systems.
 
-Modern AI tooling frequently optimises for experimentation rather than system design.  
-Neva explores structured agent architectures with strong typing, explicit runtime behaviour and extremely low overhead.
+Neva provides strongly-typed interfaces and predictable runtime behavior for integrating agents, tools, and services with minimal overhead.
 
-Extends exploration into explicit system design into AI infrastructure.
+Focus: bringing system design discipline into AI infrastructure.
 
 ### [Istok: deterministic HTTP/3 engine](https://github.com/RomanEmreis/istok)
 
-An exploration of HTTP/3 as an explicit, deterministic system rather than an opaque runtime.
+An HTTP/3 engine built as a deterministic state machine.
 
-Most networking stacks rely on implicit state and non-deterministic behaviour, making them difficult to reason about and test.  
-Istok investigates an alternative approach based on a test-first state machine, explicit protocol handling, and deterministic transport simulation.
+Istok models protocol behavior explicitly, enabling testable, reproducible networking flows instead of relying on opaque runtime behavior.
 
-Serves as a foundation layer for exploring explicit system design across the stack.
+Focus: protocol-level determinism and verifiable execution.
 
-## Areas of Exploration
+## Areas
 
-### Systems Architecture
-- Distributed system architecture
-- Async runtimes and network systems
-
-### Platforms & DX
-- Developer platforms & DX engineering
-- Cloud-native infrastructure
-
-### AI Infrastructure
-- AI infrastructure & agent frameworks
-- Identity-driven system design
+- Systems — distributed architecture, async runtimes, deterministic protocol design
+- Platforms — developer platforms, cloud-native infrastructure
+- AI — agent systems, MCP integrations, structured AI infrastructure
 
 ## Engineering Principles
 
@@ -85,14 +52,13 @@ Serves as a foundation layer for exploring explicit system design across the sta
 
 ## Thinking Direction
 
-Active explorations:
+Complexity is usually an abstraction problem, not a scale problem.
 
-- How explicit system design can reduce cognitive overhead without limiting flexibility
-- Designing middleware and runtime abstractions that remain predictable under scale
-- Bridging high-performance infrastructure principles into AI agent ecosystems
-- Balancing developer ergonomics with runtime transparency
+Hidden behavior — in frameworks, runtimes, and agent loops — is what makes systems hard to reason about.
 
-These explorations evolve continuously through [engineering-notes](https://www.github.com/RomanEmreis/engineering-notes).
+I build systems where explicitness and ergonomics reinforce each other, from protocol-level infrastructure to AI orchestration.
+
+Ongoing notes: [engineering-notes](https://www.github.com/RomanEmreis/engineering-notes)
 
 ## Contact
 
